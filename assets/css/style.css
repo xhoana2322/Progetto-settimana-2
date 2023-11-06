@@ -1,0 +1,38 @@
+/* Your styles here */
+html {
+    background-color: aliceblue;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+    background-color: #222f3f;
+    padding: 1em;
+}
+
+
+
+/* NAV */
+
+
+
+/* SECTION CON TITOLO */
+
+section {
+    text-align: center;
+    color: white;
+}
+
+section div {
+    background-image: url('../images/bg-image.png')
+}
+
+section p:first-child {
+    background-color:#F56600;
+    color: white;
+    margin: 2em;
+    text-align: center;
+}
+
+footer {
+    background-color: #222f3f;
+}
