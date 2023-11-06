@@ -16,6 +16,7 @@ aside > a, article > a  {
 header {
     background-color: #222f3f;
     padding: 1em;
+    padding-left: 2em;
 }
 
 
@@ -24,12 +25,14 @@ header {
 
 nav {
     background-color: #364759;
+    padding-left: 1em;
 }
 
 nav a {
     color: #c9e0f8;
-    font-size: smaller;
+    font-size: medium;
     text-decoration: none;
+    padding-left: 1em;
 }
 
 /* SECTION CON TITOLO */
@@ -42,7 +45,7 @@ section {
 section div {
     background-image: url('../images/bg-image.png');
     padding: 2em;
-    background-size: 60em;
+    background-size: 80em;
 }
 
 section p:first-child {
@@ -78,7 +81,7 @@ aside a {
 
 .imgDIV {
     display: inline-block;
-    border-radius: 20%;
+    border-radius: 30%;
 }
 
 
@@ -88,7 +91,10 @@ article h3 {
     font-size: larger;
     display: inline-block;
     text-align: center;
+    margin-right: 1em;
+    margin: 1em;
 }
+
 
 /* FOOTER */
 
@@ -97,7 +103,10 @@ article h3 {
     background-color: #364759;
     padding: 17px;
     font-weight: bold;
-    color: #ffffff;
+}
+
+footer a {
+    color: white;
 }
 
 .logo {
