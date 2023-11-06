@@ -3,8 +3,14 @@
 html {
     background-color: aliceblue;
     font-family: Arial, Helvetica, sans-serif;
+    margin: 0em;
 }
 
+aside > a, article > a  {
+    color:rgb(0, 173, 179);
+    text-decoration: none;
+    font-weight: bold;
+}
 
 /* HEADER */
 header {
@@ -54,10 +60,9 @@ aside {
 }
 
 .imgDIV {
-    display: inline-block;
-    border-radius: 100%
-    
-}
+    margin: 1em;
+    border-radius: 10%;
+} 
 
 
 
@@ -70,11 +75,18 @@ article h3 {
 
 /* FOOTER */
 
-footer a {
-    text-align: center;
+footer {
+    background-color: #222f3f;
 }
 
-footer img {
+footer > a {
+    text-decoration: none;
+    color: white;
+    text-align: center;
+    margin: 25em;
+}
+
+footer div {
     background-color: #222f3f;
-    margin: 2em, 6em;
+    padding: 1em;
 }
