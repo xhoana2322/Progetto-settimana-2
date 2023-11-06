@@ -57,36 +57,51 @@ section p:first-child {
 
 aside {
     background-color: white;
+    margin-top: 2em;
+}
+
+aside h3 {
+    display: inline-block;
+    font-size: 20px;
+    font-weight: bold;
+    margin-right: 1em;
+    margin-left: 1em;
+}
+
+aside a {
+    font-weight: bold;
+}
+
+.box {
+    display: inline-block;
 }
 
 .imgDIV {
-    margin: 1em;
-    border-radius: 10%;
-} 
-
+    display: inline-block;
+    border-radius: 20%;
+}
 
 
 /* ARTICLE */
 
 article h3 {
-    text-align: center;
     font-size: larger;
+    display: inline-block;
+    text-align: center;
 }
 
 /* FOOTER */
 
-footer {
-    background-color: #222f3f;
-}
-
-footer > a {
-    text-decoration: none;
-    color: white;
+.back {
     text-align: center;
-    margin: 25em;
+    background-color: #364759;
+    padding: 17px;
+    font-weight: bold;
+    color: #ffffff;
 }
 
-footer div {
+.logo {
     background-color: #222f3f;
-    padding: 1em;
+    padding: 5em;
+    text-align: center;
 }
